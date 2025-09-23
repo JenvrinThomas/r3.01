@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+	font-family: "Inter";
+}
+
+body{
+	text-align: center;
+}
+
+#nb_victoires{
+	color: green;
+}
+
+#nb_defaites{
+	color: red;
+}
+
+#nb_egalites{
+	color: orange;
+}
+
+button {
+	font-size: 28px;
+	transition: 0.5s;
+	border-radius: 4px;
+	width: 33%;
+	display: inline;
+	text-align: center;
+	padding: 2px;
+}
+
+button:hover{
+	width: 40%;
+	background: green;
+	color: white;
+	padding-left: 24px;
+	padding-right: 24px;
+} 
